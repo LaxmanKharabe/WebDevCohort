@@ -31,9 +31,6 @@ const letters = ["A", "B", "C", "D", "E"];
 // console.log(delete letters[0]);
 // console.log(letters); // [ <1 empty item>, 'B', 'C', 'D', 'E' ]
 
-
-
-
 // splice() :- The splice() method in JavaScript is used to add, remove, or replace elements in an array. 
 /* array.splice(startIndex, deleteCount, item1, item2, ...);
 1. startIndex – The index at which to start modifying the array.
@@ -59,3 +56,16 @@ const letters = ["A", "B", "C", "D", "E"];
 //   arr.flatMap(x => (Array.isArray(x) ? deepFlatMap(x) : x));
 // console.log(deepFlatMap(letters)); // Output: ["A", "B", "C", "D", "E", "F", "G", "H", "p"]
 // console.log(letters.flat(Infinity));
+
+
+// toSpliced() :- this works like splice() but the difference is toSpliced() do not change the orignal array.
+// const spliced = letters.toSpliced(0, 1);
+// console.log(spliced);
+// letters.toSpliced(0, 1);
+// console.log(letters);
+
+// slice(): method creates a new array by picking up the elements by provided index. 
+// The slice() method does not remove any elements from the source array. It does not modify the orignal array
+// const a = letters.slice(1, 3)
+// console.log(a);
+
