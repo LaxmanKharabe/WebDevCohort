@@ -1,1 +1,0 @@
-Problem 1: Create a array containing different teas

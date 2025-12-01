@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Ensure no conflicting styles for the parent container or Card components */
+.abc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Remove any fixed widths or margins that might interfere */
